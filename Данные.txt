@@ -1,0 +1,10 @@
+Ссылка на макет:
+https://www.figma.com/design/17yKzjghdB7apaz9JyXfeI/Landing-Page-Data-Processing-Company-?node-id=0-1&t=pdvSbJzAQwHV1YcB-1
+
+Цвета:
+Главный - #040D3E
+Кнопки - #F2994A/#FFFFFF
+Текст - #8476AA/#99EFD0/#95A1BB
+Текст в хедере - #B5B5B5
+Текст в футере - #8D8D8D
+

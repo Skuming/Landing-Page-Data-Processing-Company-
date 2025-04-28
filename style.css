@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f1145;
+  font-family: "Gilroy-Regular", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+header {
+  /* Временный margin */
+  margin-top: 30px;
+
+  width: 80%;
+  height: 36px;
+  color: #b5b5b5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 427px;
+}
+
+.left__nav {
+  width: 347px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.left__nav > a {
+  color: #b5b5b5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.right__wrapper {
+  width: 244px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn__layout {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.header__button {
+  width: 112px;
+  height: 36px;
+  border-radius: 3px;
+}
+
+.unfilled__btn {
+  border: 1px solid #f2994a;
+  background-color: transparent;
+  color: #f2994a;
+}
+
+.filled__btn {
+  background-color: #f2994a;
+  border: none;
+  color: #ffffff;
+}
+
+main {
+  width: 80%;
+}
+
+.first__section {
+  /* Временный margin */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  width: 530px;
+}
+
+.section__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.left__section__wrapper {
+  margin-top: 30px;
+  width: 530px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main__section__text {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: #99efd0;
+  font-size: 44px;
+  line-height: 50px;
+  letter-spacing: 0px;
+}
+
+.first__section__text {
+  height: 44px;
+  width: 468px;
+}
+
+.section__text {
+  color: #8476aa;
+}
+
+.first__section__btn {
+  width: 157px;
+  height: 46px;
+}
+
+.first__section__btn {
+  border-radius: 3px;
+}
+
+.section__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.right__section__wrapper {
+  width: 724px;
+  height: 579px;
+}
+
+.brands__section {
+  display: flex;
+  justify-content: space-around;
+  opacity: 40%;
+}
+
+.features__section {
+  /* Опять же временный margin */
+  margin-top: 30px;
+  height: 382px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; Потом поменять*/
+}
+
+.features__section__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 13px;
+}
