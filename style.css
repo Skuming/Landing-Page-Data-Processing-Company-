@@ -163,7 +163,7 @@ main {
 
 .features__section {
   /* Опять же временный margin */
-  margin-top: 30px;
+  margin-top: 60px;
   height: 382px;
   display: flex;
   flex-direction: column;
@@ -176,4 +176,17 @@ main {
   flex-direction: column;
   align-items: center;
   gap: 13px;
+}
+.features__article {
+  display: flex;
+  width: 300px;
+  height: 106px;
+}
+
+.article__text {
+  display: flex;
+  flex-direction: column;
+}
+.article__main__text {
+  color: #99efd0;
 }
